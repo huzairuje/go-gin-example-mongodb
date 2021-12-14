@@ -1,0 +1,6 @@
+ServerPort: ":3010"
+DatabaseHost: "localhost"
+DatabasePort: "27017"
+DatabaseUser: "user"
+DatabasePassword: "password"
+DatabaseName: "loan_process"
