@@ -23,11 +23,13 @@ and then fill the necessary data, example
 ```$xslt
 ServerPort: ":3000"
 DatabaseHost: "localhost"
-DatabasePort: "5432"
-DatabaseUser: "postgres"
-DatabasePassword: "postgres"
+DatabasePort: "27017"
+DatabaseUser: "user"
+DatabasePassword: "password"
 DatabaseName: "loans"
 ```
+or you can just use the example config.yml, or you can just straight run the server 
+without set up any of config, but it will use the default config.
 
 #### 4. run the server
 go to this project root folder
