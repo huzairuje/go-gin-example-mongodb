@@ -29,8 +29,8 @@ type Installment struct {
 	Id                     primitive.ObjectID `json:"id" bson:"_id"`
 	LoanId                 primitive.ObjectID `json:"loan_id" bson:"loan_id"`
 	AllPaidOff             bool               `json:"all_paid_off" bson:"all_paid_off"`
-	TenorRemaining         int32              `json:"tenor_remaining" bson:"tenor_remaining"`
-	TotalTenor             int32              `json:"total_tenor" bson:"total_tenor"`
+	TenorRemaining         string             `json:"tenor_remaining" bson:"tenor_remaining"`
+	TotalTenor             string             `json:"total_tenor" bson:"total_tenor"`
 	InstallmentAmount      string             `json:"installment_amount" bson:"installment_amount"`
 	TotalInstallmentAmount string             `json:"total_installment_amount" bson:"total_installment_amount"`
 	CreatedAt              time.Time          `json:"created_at" bson:"created_at"`
